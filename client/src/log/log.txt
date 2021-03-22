@@ -1,0 +1,70 @@
+INFO: Connected to server localhost/127.0.0.1 on port !7777INFO: Started Client process! INPUT: 
+ Please use numbers to signify what you intend to do?
+1.) List all Files 
+2.) Download File 
+3.) Create a File on Server! 
+4.) Exit 
+ > INFO: Listing all files! OUTPUT: 
+1.) test1.txt 
+2.) test2.txt 
+3.) test3.txt 
+4.) test4.txt 
+5.) test5.txt 
+
+INPUT: 
+ Please use numbers to signify what you intend to do?
+1.) List all Files 
+2.) Download File 
+3.) Create a File on Server! 
+4.) Exit 
+ > INPUT: Do you want to download one file or multiple files? > 
+ 1.) One File 
+ 2.) Multiple Files 
+ > INPUT: Enter the file name! 
+ > INFO: Serial download of 1 files!INFO: Downloading file serially : test1.txt to directory C:/Users/sumuk/Desktop/IIT/Spring 21/Courses/AOS/Assignments/Assignment_1/code/client/files/test1.txt of size 1248INFO: It took 618399 Nanoseconds to download the file test1.txt of size 1248 to client!INFO: It took 15251300 Nanoseconds to check integrity of the file test1.txt of size 1248 to client!INFO: The MD5 Hash matches the server! Integrity check satisfied!INPUT: 
+ Please use numbers to signify what you intend to do?
+1.) List all Files 
+2.) Download File 
+3.) Create a File on Server! 
+4.) Exit 
+ > INFO: Exiting client! INFO: Connected to server localhost/127.0.0.1 on port !7777INFO: Connected to server localhost/127.0.0.1 on port !7777INFO: Connected to server localhost/127.0.0.1 on port !7777INFO: Connected to server localhost/127.0.0.1 on port !7777INFO: Scale to four and download 4 files [ test1.txt, test2.txt, test3.txt, test4.txt ] and check integrity of file! OUTPUT: 
+Client: 3 : Running client 3 for test ScaleToFour! OUTPUT: 
+Client: 2 : Running client 2 for test ScaleToFour! OUTPUT: 
+Client: 4 : Running client 4 for test ScaleToFour! OUTPUT: 
+Client: 1 : Running client 1 for test ScaleToFour! OUTPUT: 
+Client: 4 : Downloading file : test4.txt from Server! OUTPUT: 
+Client: 2 : Downloading file : test2.txt from Server! OUTPUT: 
+Client: 1 : Downloading file : test1.txt from Server! OUTPUT: 
+Client: 3 : Downloading file : test3.txt from Server! INFO: Serial download of 1 files!INFO: Serial download of 1 files!INFO: Serial download of 1 files!INFO: Serial download of 1 files!INFO: Downloading file serially : test3.txt to directory C:/Users/sumuk/Desktop/IIT/Spring 21/Courses/AOS/Assignments/Assignment_1/code/client/files/test3.txt of size 1248INFO: Downloading file serially : test4.txt to directory C:/Users/sumuk/Desktop/IIT/Spring 21/Courses/AOS/Assignments/Assignment_1/code/client/files/test4.txt of size 1248INFO: Downloading file serially : test2.txt to directory C:/Users/sumuk/Desktop/IIT/Spring 21/Courses/AOS/Assignments/Assignment_1/code/client/files/test2.txt of size 1248INFO: Downloading file serially : test1.txt to directory C:/Users/sumuk/Desktop/IIT/Spring 21/Courses/AOS/Assignments/Assignment_1/code/client/files/test1.txt of size 1248INFO: It took 385499 Nanoseconds to download the file test2.txt of size 1248 to client!INFO: It took 448300 Nanoseconds to download the file test4.txt of size 1248 to client!INFO: It took 588800 Nanoseconds to download the file test3.txt of size 1248 to client!INFO: It took 288899 Nanoseconds to download the file test1.txt of size 1248 to client!INFO: It took 22328900 Nanoseconds to check integrity of the file test1.txt of size 1248 to client!INFO: The MD5 Hash matches the server! Integrity check satisfied!INFO: It took 22003900 Nanoseconds to check integrity of the file test3.txt of size 1248 to client!INFO: It took 21480399 Nanoseconds to check integrity of the file test4.txt of size 1248 to client!INFO: It took 22847199 Nanoseconds to check integrity of the file test2.txt of size 1248 to client!INFO: The MD5 Hash matches the server! Integrity check satisfied!INFO: Exiting client! INFO: The MD5 Hash matches the server! Integrity check satisfied!INFO: Exiting client! INFO: The MD5 Hash matches the server! Integrity check satisfied!INFO: Exiting client! INFO: Connected to server localhost/127.0.0.1 on port !7777INFO: Connected to server localhost/127.0.0.1 on port !7777INFO: Connected to server localhost/127.0.0.1 on port !7777INFO: Connected to server localhost/127.0.0.1 on port !7777INFO: Connected to server localhost/127.0.0.1 on port !7777INFO: Connected to server localhost/127.0.0.1 on port !7777INFO: Connected to server localhost/127.0.0.1 on port !7777INFO: Connected to server localhost/127.0.0.1 on port !7777INFO: Connected to server localhost/127.0.0.1 on port !7777INFO: Connected to server localhost/127.0.0.1 on port !7777INFO: Connected to server localhost/127.0.0.1 on port !7777INFO: Connected to server localhost/127.0.0.1 on port !7777INFO: Connected to server localhost/127.0.0.1 on port !7777INFO: Connected to server localhost/127.0.0.1 on port !7777INFO: Connected to server localhost/127.0.0.1 on port !7777INFO: Connected to server localhost/127.0.0.1 on port !7777INFO: Scaled to 16 clients and downloading 10 files concurrently and checking integrity of file! OUTPUT: 
+Client: 6 : Running client 6 !OUTPUT: 
+Client: 1 : Running client 1 !OUTPUT: 
+Client: 16 : Running client 16 !OUTPUT: 
+Client: 14 : Running client 14 !OUTPUT: 
+Client: 11 : Running client 11 !OUTPUT: 
+Client: 7 : Running client 7 !OUTPUT: 
+Client: 5 : Running client 5 !OUTPUT: 
+Client: 3 : Running client 3 !OUTPUT: 
+Client: 13 : Running client 13 !OUTPUT: 
+Client: 10 : Running client 10 !OUTPUT: 
+Client: 9 : Running client 9 !OUTPUT: 
+Client: 4 : Running client 4 !OUTPUT: 
+Client: 8 : Running client 8 !OUTPUT: 
+Client: 15 : Running client 15 !OUTPUT: 
+Client: 12 : Running client 12 !OUTPUT: 
+Client: 2 : Running client 2 !OUTPUT: 
+Client: 4 : Downloading file : test1.txt,test2.txt,test3.txt,test4.txt from Server! OUTPUT: 
+Client: 8 : Downloading file : test1.txt,test2.txt,test3.txt,test4.txt from Server! OUTPUT: 
+Client: 15 : Downloading file : test1.txt,test2.txt,test3.txt,test4.txt from Server! OUTPUT: 
+Client: 5 : Downloading file : test1.txt,test2.txt,test3.txt,test4.txt from Server! OUTPUT: 
+Client: 11 : Downloading file : test1.txt,test2.txt,test3.txt,test4.txt from Server! OUTPUT: 
+Client: 3 : Downloading file : test1.txt,test2.txt,test3.txt,test4.txt from Server! OUTPUT: 
+Client: 9 : Downloading file : test1.txt,test2.txt,test3.txt,test4.txt from Server! OUTPUT: 
+Client: 10 : Downloading file : test1.txt,test2.txt,test3.txt,test4.txt from Server! OUTPUT: 
+Client: 7 : Downloading file : test1.txt,test2.txt,test3.txt,test4.txt from Server! OUTPUT: 
+Client: 13 : Downloading file : test1.txt,test2.txt,test3.txt,test4.txt from Server! OUTPUT: 
+Client: 6 : Downloading file : test1.txt,test2.txt,test3.txt,test4.txt from Server! OUTPUT: 
+Client: 14 : Downloading file : test1.txt,test2.txt,test3.txt,test4.txt from Server! OUTPUT: 
+Client: 16 : Downloading file : test1.txt,test2.txt,test3.txt,test4.txt from Server! INFO: Parallel download of 4 files!OUTPUT: 
+Client: 1 : Downloading file : test1.txt,test2.txt,test3.txt,test4.txt from Server! INFO: Parallel download of 4 files!INFO: Parallel download of 4 files!INFO: Parallel download of 4 files!INFO: 1248INFO: Parallel download of 4 files!INFO: Parallel download of 4 files!INFO: Parallel download of 4 files!INFO: Parallel download of 4 files!INFO: 1248INFO: Parallel download of 4 files!INFO: Parallel download of 4 files!INFO: Parallel download of 4 files!INFO: Parallel download of 4 files!INFO: Parallel download of 4 files!INFO: Parallel download of 4 files!OUTPUT: 
+Client: 2 : Downloading file : test1.txt,test2.txt,test3.txt,test4.txt from Server! OUTPUT: 
+Client: 12 : Downloading file : test1.txt,test2.txt,test3.txt,test4.txt from Server! INFO: Parallel download of 4 files!INFO: 1248INFO: 1248INFO: 1248INFO: 1248INFO: Parallel download of 4 files!INFO: 1248INFO: 1248INFO: 1248INFO: 1248INFO: 1248INFO: 1248INFO: 1248INFO: 1248INFO: 1248INFO: Thread: 1 : Downloading file in parallel : test1.txt to directory C:/Users/sumuk/Desktop/IIT/Spring 21/Courses/AOS/Assignments/Assignment_1/code/client/files/test1.txt of size 1248INFO: Thread: 1 : Downloading file in parallel : test1.txt to directory C:/Users/sumuk/Desktop/IIT/Spring 21/Courses/AOS/Assignments/Assignment_1/code/client/files/test1.txt of size 1248INFO: Thread: 1 : Downloading file in parallel : test1.txt to directory C:/Users/sumuk/Desktop/IIT/Spring 21/Courses/AOS/Assignments/Assignment_1/code/client/files/test1.txt of size 1248INFO: Thread: 1 : Downloading file in parallel : test1.txt to directory C:/Users/sumuk/Desktop/IIT/Spring 21/Courses/AOS/Assignments/Assignment_1/code/client/files/test1.txt of size 1248INFO: Thread: 1 : Downloading file in parallel : test1.txt to directory C:/Users/sumuk/Desktop/IIT/Spring 21/Courses/AOS/Assignments/Assignment_1/code/client/files/test1.txt of size 1248INFO: Thread: 1 : Downloading file in parallel : test1.txt to directory C:/Users/sumuk/Desktop/IIT/Spring 21/Courses/AOS/Assignments/Assignment_1/code/client/files/test1.txt of size 1248INFO: Thread: 1 : Downloading file in parallel : test1.txt to directory C:/Users/sumuk/Desktop/IIT/Spring 21/Courses/AOS/Assignments/Assignment_1/code/client/files/test1.txt of size 1248INFO: Thread: 1 : Downloading file in parallel : test1.txt to directory C:/Users/sumuk/Desktop/IIT/Spring 21/Courses/AOS/Assignments/Assignment_1/code/client/files/test1.txt of size 1248INFO: Thread: 1 : Downloading file in parallel : test1.txt to directory C:/Users/sumuk/Desktop/IIT/Spring 21/Courses/AOS/Assignments/Assignment_1/code/client/files/test1.txt of size 1248INFO: Thread: 1 : Downloading file in parallel : test1.txt to directory C:/Users/sumuk/Desktop/IIT/Spring 21/Courses/AOS/Assignments/Assignment_1/code/client/files/test1.txt of size 1248INFO: Thread: 1 : Downloading file in parallel : test1.txt to directory C:/Users/sumuk/Desktop/IIT/Spring 21/Courses/AOS/Assignments/Assignment_1/code/client/files/test1.txt of size 1248INFO: Thread: 1 : Downloading file in parallel : test1.txt to directory C:/Users/sumuk/Desktop/IIT/Spring 21/Courses/AOS/Assignments/Assignment_1/code/client/files/test1.txt of size 1248INFO: Thread: 1 : Downloading file in parallel : test1.txt to directory C:/Users/sumuk/Desktop/IIT/Spring 21/Courses/AOS/Assignments/Assignment_1/code/client/files/test1.txt of size 1248INFO: Thread: 1 : Downloading file in parallel : test1.txt to directory C:/Users/sumuk/Desktop/IIT/Spring 21/Courses/AOS/Assignments/Assignment_1/code/client/files/test1.txt of size 1248INFO: Thread: 1 : Downloading file in parallel : test1.txt to directory C:/Users/sumuk/Desktop/IIT/Spring 21/Courses/AOS/Assignments/Assignment_1/code/client/files/test1.txt of size 1248INFO: The MD5 Hash matches the server! Integrity check satisfied!INFO: The MD5 Hash matches the server! Integrity check satisfied!INFO: 1248INFO: The MD5 Hash matches the server! Integrity check satisfied!INFO: The MD5 Hash matches the server! Integrity check satisfied!INFO: The MD5 Hash matches the server! Integrity check satisfied!INFO: The MD5 Hash matches the server! Integrity check satisfied!INFO: The MD5 Hash matches the server! Integrity check satisfied!INFO: The MD5 Hash matches the server! Integrity check satisfied!INFO: The MD5 Hash matches the server! Integrity check satisfied!INFO: The MD5 Hash matches the server! Integrity check satisfied!INFO: The MD5 Hash matches the server! Integrity check satisfied!INFO: The MD5 Hash matches the server! Integrity check satisfied!INFO: The MD5 Hash matches the server! Integrity check satisfied!INFO: The MD5 Hash matches the server! Integrity check satisfied!INFO: The MD5 Hash matches the server! Integrity check satisfied!INFO: 1248INFO: 1248INFO: Thread: 1 : Downloading file in parallel : test1.txt to directory C:/Users/sumuk/Desktop/IIT/Spring 21/Courses/AOS/Assignments/Assignment_1/code/client/files/test1.txt of size 1248INFO: 1248INFO: The MD5 Hash matches the server! Integrity check satisfied!INFO: Thread: 1 : Downloading file in parallel : test2.txt to directory C:/Users/sumuk/Desktop/IIT/Spring 21/Courses/AOS/Assignments/Assignment_1/code/client/files/test2.txt of size 1248INFO: Thread: 1 : Downloading file in parallel : test2.txt to dire
